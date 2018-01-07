@@ -2,7 +2,7 @@ class bicycle(object):
     def __init__(self, cost):
         self.cost = cost
 
-    def sale_price(self, cost):
+    def sale_price(self):
         for self.cost in cost:
             self.cost += 10
 
